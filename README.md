@@ -27,7 +27,7 @@ int main() {
 
     // Check third reading
     if ((temp3 - temp1) < 10) {
-        cout << "Oil is not heating properly." << endl;
+        cout << "Oil is not heating properly." << endl; 
     }
     else {
         cout << "Oil temperature is increasing normally." << endl;
