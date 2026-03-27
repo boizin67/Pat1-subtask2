@@ -15,7 +15,7 @@ int main() {
     cin >> temp3;
 
     // Check second reading
-    if (temp2 - temp1 > 50) {
+    if (temp2 - temp1 > 50) { 
         cout << "Warning: Temperature increased too fast!" << endl;
     }
     else if (temp1 - temp2 > 50) {
